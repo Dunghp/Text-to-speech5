@@ -28,7 +28,7 @@ body{
 }
 .container textarea{
     margin-top: 10px;
-    height: 350px;
+    height: 450px;
     padding: 10px;
     color: blue;
     resize: none;
@@ -58,7 +58,7 @@ body{
         width: 375px;
     }
     .container textarea{
-        height: 350px;
+        height: 450px;
         width: 100%;
     }
 }
