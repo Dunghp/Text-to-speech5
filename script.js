@@ -5,7 +5,7 @@ let voices = [];
 
 // Function to populate the voice list
 function populateVoiceList() {
-    voices = synth.getVoices().filter(voice => voice.lang.startsWith('en-US'));
+    voices = synth.getVoices().filter(voice => voice.lang.startsWith('en'));
     const voiceSelect = document.querySelector("#voices");
     voiceSelect.innerHTML = "";
     voices.forEach((voice, i) => {
